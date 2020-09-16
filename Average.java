@@ -15,9 +15,9 @@ public class Average
         System.out.print("Enter three numbers - I will average them: ");
         
         final int TOTAL_NUMBERS = 3;
-        double numberOne = input.nextInt();
-        double numberTwo = input.nextInt();
-        double numberThree = input.nextInt();
+        double numberOne = input.nextDouble();
+        double numberTwo = input.nextDouble();
+        double numberThree = input.nextDouble();
         double average = (numberOne + numberTwo + numberThree) / TOTAL_NUMBERS;
         
         System.out.printf("The average of %.2f, %.2f, and %.2f is %.2f", numberOne, numberTwo, numberThree, average);
